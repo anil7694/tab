@@ -1,0 +1,3009 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<workbook original-version='18.1' source-build='2023.3.0 (20233.23.1017.0948)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sample - Superstore' inline='true' name='federated.09gaihl0l1o5em16bl9lp0w7m49e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Sample - Superstore' name='excel-direct.10z2oho1dxphpw1fliz0e12121fr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Hp/Documents/My Tableau Repository/Datasources/2023.3/en_US-US/Sample - Superstore.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.10z2oho1dxphpw1fliz0e12121fr' name='Orders' table='[Orders$]' type='table'>
+          <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Row ID' ordinal='0' />
+            <column datatype='string' name='Order ID' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='date' name='Ship Date' ordinal='3' />
+            <column datatype='string' name='Ship Mode' ordinal='4' />
+            <column datatype='string' name='Customer ID' ordinal='5' />
+            <column datatype='string' name='Customer Name' ordinal='6' />
+            <column datatype='string' name='Segment' ordinal='7' />
+            <column datatype='string' name='Country/Region' ordinal='8' />
+            <column datatype='string' name='City' ordinal='9' />
+            <column datatype='string' name='State/Province' ordinal='10' />
+            <column datatype='string' name='Postal Code' ordinal='11' />
+            <column datatype='string' name='Region' ordinal='12' />
+            <column datatype='string' name='Product ID' ordinal='13' />
+            <column datatype='string' name='Category' ordinal='14' />
+            <column datatype='string' name='Sub-Category' ordinal='15' />
+            <column datatype='string' name='Product Name' ordinal='16' />
+            <column datatype='real' name='Sales' ordinal='17' />
+            <column datatype='integer' name='Quantity' ordinal='18' />
+            <column datatype='real' name='Discount' ordinal='19' />
+            <column datatype='real' name='Profit' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.10z2oho1dxphpw1fliz0e12121fr' name='Orders' table='[Orders$]' type='table'>
+          <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Row ID' ordinal='0' />
+            <column datatype='string' name='Order ID' ordinal='1' />
+            <column datatype='date' name='Order Date' ordinal='2' />
+            <column datatype='date' name='Ship Date' ordinal='3' />
+            <column datatype='string' name='Ship Mode' ordinal='4' />
+            <column datatype='string' name='Customer ID' ordinal='5' />
+            <column datatype='string' name='Customer Name' ordinal='6' />
+            <column datatype='string' name='Segment' ordinal='7' />
+            <column datatype='string' name='Country/Region' ordinal='8' />
+            <column datatype='string' name='City' ordinal='9' />
+            <column datatype='string' name='State/Province' ordinal='10' />
+            <column datatype='string' name='Postal Code' ordinal='11' />
+            <column datatype='string' name='Region' ordinal='12' />
+            <column datatype='string' name='Product ID' ordinal='13' />
+            <column datatype='string' name='Category' ordinal='14' />
+            <column datatype='string' name='Sub-Category' ordinal='15' />
+            <column datatype='string' name='Product Name' ordinal='16' />
+            <column datatype='real' name='Sales' ordinal='17' />
+            <column datatype='integer' name='Quantity' ordinal='18' />
+            <column datatype='real' name='Discount' ordinal='19' />
+            <column datatype='real' name='Profit' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U10195:no:A1:U10195:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Row ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row ID]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Row ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ship Date]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Ship Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Mode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship Mode]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Ship Mode</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country/Region]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Country/Region</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State/Province</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State/Province]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>State/Province</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Name]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Product Name</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Orders_B02A728E03B640A884F57C7ECF448B8F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City (group)]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[City]' new-bin='true'>
+          <bin default-name='true' value='&quot;Chicago, Houston, Jacksonville and 7 more&quot;'>
+            <value>&quot;Chicago&quot;</value>
+            <value>&quot;Houston&quot;</value>
+            <value>&quot;Jacksonville&quot;</value>
+            <value>&quot;Los Angeles&quot;</value>
+            <value>&quot;New York City&quot;</value>
+            <value>&quot;Philadelphia&quot;</value>
+            <value>&quot;San Diego&quot;</value>
+            <value>&quot;San Francisco&quot;</value>
+            <value>&quot;Seattle&quot;</value>
+            <value>&quot;Springfield&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country/Region]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[Sub-Category (group) 1]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Sub-Category]' default='&quot;Other&quot;' new-bin='true'>
+          <bin default-name='true' value='&quot;Accessories, Binders, Chairs and 2 more&quot;'>
+            <value>&quot;Accessories&quot;</value>
+            <value>&quot;Binders&quot;</value>
+            <value>&quot;Chairs&quot;</value>
+            <value>&quot;Phones&quot;</value>
+            <value>&quot;Storage&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Sub-Category (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Sub-Category]' new-bin='true'>
+          <bin default-name='true' value='&quot;Accessories, Appliances, Art and 2 more&quot;'>
+            <value>&quot;Accessories&quot;</value>
+            <value>&quot;Appliances&quot;</value>
+            <value>&quot;Art&quot;</value>
+            <value>&quot;Binders&quot;</value>
+            <value>&quot;Bookcases&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Sub-Category]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Orders' datatype='table' name='[__tableau_internal_object_id__].[Orders_B02A728E03B640A884F57C7ECF448B8F]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[City (group)]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Amarillo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Baltimore&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bozeman&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Carrollton&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cleveland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Covington&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Dublin&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Evanston&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Georgetown&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hagerstown&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Homestead&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kirkwood&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Laurel&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Louisville&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Medina&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Modesto&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;New Bedford&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Olathe&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Passaic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Port Saint Lucie&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Revere&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saint Cloud&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Santa Barbara&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Summerville&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Trenton&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Waterloo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Woonsocket&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Athens&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Billings&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Burlington&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chester&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Conway&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Delray Beach&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;El Paso&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Freeport&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Green Bay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hesperia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jefferson City&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lakeland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Little Rock&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Margate&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Milwaukee&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Murfreesboro&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;North Las Vegas&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Oxnard&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Plano&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Redding&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Romeoville&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;San Gabriel&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Southaven&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Thomasville&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Vineland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Whittier&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Alexandria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Aurora&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bolingbrook&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cambridge&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chula Vista&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Coral Springs&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Des Plaines&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Encinitas&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gaithersburg&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gresham&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Hillsboro&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Keller&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lansing&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Long Beach&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Marysville&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mission Viejo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Naperville&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Oakland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Parker&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Pomona&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Redwood City&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Royal Oak&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;San Mateo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;St. John&apos;s&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tinley Park&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Warner Robins&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Winnipeg&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Antioch&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Baytown&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Broken Arrow&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Champaign&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Coachella&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Danbury&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;East Orange&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Farmington&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Glenview&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hampton&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Huntsville&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;La Mesa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;League City&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Macon&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Meriden&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Montgomery&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Newark&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Orange&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pensacola&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Provo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Riverside&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Saint Petersburg&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Scottsdale&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tamarac&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tuscaloosa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Waynesboro&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Yuma&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Anaheim&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bangor&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Brentwood&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cary&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Clifton&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cranston&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dubuque&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Everett&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gilbert&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Halifax&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hoover&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kissimmee&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lawrence&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Loveland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Melbourne&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Moncton&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New Brunswick&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Olympia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Paterson&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Portage&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Richardson&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Saint Louis&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Santa Clara&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sunnyvale&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Troy&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Watertown&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Yonkers&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Allen&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Austin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bossier City&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Canton&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cincinnati&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Corpus Christi&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Detroit&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Englewood&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Garden City&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Grove City&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Holland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kenner&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Laredo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Longmont&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mason&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Missoula&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nashua&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Oceanside&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Parma&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pompano Beach&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Regina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sacramento&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sandy Springs&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sterling Heights&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Toledo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Warwick&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Woodbury&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Arvada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bethlehem&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bullhead City&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chattanooga&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Concord&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Decatur&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Edmonton&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Frankfort&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Great Falls&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Henderson&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jackson&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lake Elsinore&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Linden&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Manteca&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Midland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mount Pleasant&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Norman&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Overland Park&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pine Bluff&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rapid City&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rogers&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;San Bernardino&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Smyrna&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Texas City&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Vallejo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Westminster&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Abilene&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Atlanta&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bloomington&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Caldwell&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cheyenne&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Coon Rapids&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Deltona&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Elkhart&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fremont&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Greensboro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hialeah&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Johnson City&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lakeville&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Littleton&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Marietta&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Minneapolis&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Murray&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;North Miami&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Palatine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Plantation&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Redlands&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Roseville&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;San Jose&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sparks&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Thornton&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Virginia Beach&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wichita&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Arlington&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bellevue&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Buffalo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Charlottesville&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Columbus&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dearborn&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Edmond&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fort Lauderdale&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Grand Rapids&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Helena&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Iowa City&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Laguna Niguel&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lewiston&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Manhattan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Miami&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Morgan Hill&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Norfolk&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ormond Beach&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Phoenix&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Raleigh&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Rockford&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;San Angelo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sioux Falls&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tempe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Utica&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Westfield&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Allentown&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Avondale&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bowling Green&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Carlsbad&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Citrus Heights&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Costa Mesa&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dover&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Escondido&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Garland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gulfport&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hollywood&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kenosha&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Las Cruces&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Longview&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mcallen&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Missouri City&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nashville&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Odessa&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Pasadena&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Port Arthur&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Reno&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Saginaw&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sanford&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Stockton&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Toronto&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Woodland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Apopka&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Beaumont&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Broomfield&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chandler&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;College Station&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Danville&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;East Point&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fayetteville&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Goldsboro&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Harlingen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Independence&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;La Porte&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Madison&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Meridian&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Montreal&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Newport News&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Orem&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Peoria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pueblo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Rochester&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Salem&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sheboygan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tampa&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Twin Falls&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;West Allis&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Apple Valley&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bedford&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Brownsville&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chapel Hill&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Colorado Springs&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Davis&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Eau Claire&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Florence&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Grand Island&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Harrisonburg&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Indianapolis&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;La Quinta&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lehi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Malden&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mesa&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Moorhead&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Niagara Falls&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Orland Park&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Perth Amboy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Quebec City&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Rochester Hills&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Salinas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Shelton&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Taylor&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tyler&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;West Jordan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Arlington Heights&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bellingham&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Buffalo Grove&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Charlottetown&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Commerce City&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Dearborn Heights&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Edmonds&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fort Worth&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Grapevine&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hempstead&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Irving&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lake Charles&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lincoln Park&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mansfield&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Middletown&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Morristown&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Normal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oswego&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Pico Rivera&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rancho Cucamonga&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rockville&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;San Antonio&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Skokie&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Texarkana&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vacaville&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Westland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Asheville&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Beverly&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Burbank&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chesapeake&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Conroe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Deer Park&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;El Cajon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Franklin&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Greeley&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hendersonville&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Jamestown&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lake Forest&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lindenhurst&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maple Grove&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Milford&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mount Vernon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;North Charleston&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Owensboro&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Plainfield&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Reading&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rome&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;San Clemente&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;South Bend&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;The Colony&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vancouver&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wheeling&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Aberdeen&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Andover&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bartlett&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bridgeton&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cedar Hill&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Clinton&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cuyahoga Falls&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Durham&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fairfield&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gladstone&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Haltom City&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hot Springs&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Knoxville&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lawton&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lowell&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Memphis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monroe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;New Castle&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Omaha&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pearland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Portland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Richmond&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Saint Paul&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Santa Fe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Superior&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tucson&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Waukesha&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;York&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Altoona&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bakersfield&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Boynton Beach&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Carol Stream&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Clarksville&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cottage Grove&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Draper&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Eugene&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gastonia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hackensack&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Holyoke&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kent&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Las Vegas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lorain&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Medford&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mobile&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;New Albany&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oklahoma City&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pasco&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Port Orange&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Renton&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saint Charles&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Santa Ana&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Suffolk&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Torrance&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Waterbury&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Woodstock&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Akron&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Atlantic City&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Boca Raton&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Calgary&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chicago, Houston, Jacksonville and 7 more&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Coppell&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Denver&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Elmhurst&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fresno&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Greenville&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hickory&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jonesboro&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lakewood&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lodi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Marion&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Miramar&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Murrieta&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Norwich&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Palm Coast&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pleasant Grove&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Redmond&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Roswell&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;San Luis Obispo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Spokane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Thousand Oaks&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Visalia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wilmington&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Appleton&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Belleville&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bryan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Charlotte&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Columbia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Daytona Beach&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Edinburg&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fort Collins&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Grand Prairie&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hattiesburg&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Inglewood&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lafayette&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Leominster&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Manchester&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mesquite&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Moreno Valley&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Noblesville&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Orlando&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Pharr&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Quincy&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Rock Hill&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Salt Lake City&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sierra Vista&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Temecula&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Urbandale&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;West Palm Beach&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ann Arbor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bayonne&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bristol&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Cedar Rapids&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Clovis&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dallas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Eagan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fargo&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Glendale&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hamilton&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Huntington Beach&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;La Crosse&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Layton&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lubbock&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mentor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Montebello&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;New Rochelle&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ontario&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pembroke Pines&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Providence&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Rio Rancho&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Saint Peters&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Santa Maria&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tallahassee&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tulsa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Wausau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yucaipa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Albuquerque&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Auburn&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Boise&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Camarillo&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chico&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Coral Gables&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Des Moines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Elyria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Frisco&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Greenwood&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Highland Park&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Jupiter&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lancaster&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Logan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Marlborough&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mishawaka&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Muskogee&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Oak Park&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Park Ridge&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Pocatello&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Redondo Beach&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Round Rock&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;San Marcos&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Springdale&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tigard&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Waco&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Wilson&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Sub-Category (group)]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Paper&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fasteners&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tables&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Phones&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Furnishings&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Chairs&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Labels&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Accessories, Appliances, Art and 2 more&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Storage&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Machines&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Copiers&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Supplies&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Envelopes&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Sub-Category (group) 1]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Accessories, Binders, Chairs and 2 more&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Orders' id='Orders_B02A728E03B640A884F57C7ECF448B8F'>
+            <properties context=''>
+              <relation connection='excel-direct.10z2oho1dxphpw1fliz0e12121fr' name='Orders' table='[Orders$]' type='table'>
+                <columns gridOrigin='A1:U10195:no:A1:U10195:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Row ID' ordinal='0' />
+                  <column datatype='string' name='Order ID' ordinal='1' />
+                  <column datatype='date' name='Order Date' ordinal='2' />
+                  <column datatype='date' name='Ship Date' ordinal='3' />
+                  <column datatype='string' name='Ship Mode' ordinal='4' />
+                  <column datatype='string' name='Customer ID' ordinal='5' />
+                  <column datatype='string' name='Customer Name' ordinal='6' />
+                  <column datatype='string' name='Segment' ordinal='7' />
+                  <column datatype='string' name='Country/Region' ordinal='8' />
+                  <column datatype='string' name='City' ordinal='9' />
+                  <column datatype='string' name='State/Province' ordinal='10' />
+                  <column datatype='string' name='Postal Code' ordinal='11' />
+                  <column datatype='string' name='Region' ordinal='12' />
+                  <column datatype='string' name='Product ID' ordinal='13' />
+                  <column datatype='string' name='Category' ordinal='14' />
+                  <column datatype='string' name='Sub-Category' ordinal='15' />
+                  <column datatype='string' name='Product Name' ordinal='16' />
+                  <column datatype='real' name='Sales' ordinal='17' />
+                  <column datatype='integer' name='Quantity' ordinal='18' />
+                  <column datatype='real' name='Discount' ordinal='19' />
+                  <column datatype='real' name='Profit' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Group by Header'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sample - Superstore' name='federated.09gaihl0l1o5em16bl9lp0w7m49e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09gaihl0l1o5em16bl9lp0w7m49e'>
+            <column datatype='string' name='[City (group)]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <calculation class='categorical-bin' column='[City]' new-bin='true'>
+                <bin default-name='true' value='&quot;Chicago, Houston, Jacksonville and 7 more&quot;'>
+                  <value>&quot;Chicago&quot;</value>
+                  <value>&quot;Houston&quot;</value>
+                  <value>&quot;Jacksonville&quot;</value>
+                  <value>&quot;Los Angeles&quot;</value>
+                  <value>&quot;New York City&quot;</value>
+                  <value>&quot;Philadelphia&quot;</value>
+                  <value>&quot;San Diego&quot;</value>
+                  <value>&quot;San Francisco&quot;</value>
+                  <value>&quot;Seattle&quot;</value>
+                  <value>&quot;Springfield&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[City (group)]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[sum:Sales:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[City (group)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[City (group)]</rows>
+        <cols>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[sum:Sales:qk]</cols>
+      </table>
+      <simple-id uuid='{83AAEE25-5596-4860-A8BB-A062716C26E0}' />
+    </worksheet>
+    <worksheet name='Grouping by data window'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{73C6B527-E120-48EA-B2D3-54395691862B}' />
+    </worksheet>
+    <worksheet name='Grouping by toolbar'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sample - Superstore' name='federated.09gaihl0l1o5em16bl9lp0w7m49e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09gaihl0l1o5em16bl9lp0w7m49e'>
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sub-Category (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Sub-Category]' new-bin='true'>
+                <bin default-name='true' value='&quot;Accessories, Appliances, Art and 2 more&quot;'>
+                  <value>&quot;Accessories&quot;</value>
+                  <value>&quot;Appliances&quot;</value>
+                  <value>&quot;Art&quot;</value>
+                  <value>&quot;Binders&quot;</value>
+                  <value>&quot;Bookcases&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Sub-Category]' role='dimension' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group)]</rows>
+        <cols>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[sum:Sales:qk]</cols>
+      </table>
+      <simple-id uuid='{9B1004BE-F24F-46FE-AE6C-3C4742A64F3F}' />
+    </worksheet>
+    <worksheet name='Grouping by visual'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sample - Superstore' name='federated.09gaihl0l1o5em16bl9lp0w7m49e' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09gaihl0l1o5em16bl9lp0w7m49e'>
+            <column datatype='real' name='[Profit]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Sub-Category (group) 1]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Sub-Category]' default='&quot;Other&quot;' new-bin='true'>
+                <bin default-name='true' value='&quot;Accessories, Binders, Chairs and 2 more&quot;'>
+                  <value>&quot;Accessories&quot;</value>
+                  <value>&quot;Binders&quot;</value>
+                  <value>&quot;Chairs&quot;</value>
+                  <value>&quot;Phones&quot;</value>
+                  <value>&quot;Storage&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Sub-Category]' role='dimension' type='nominal' />
+            <column-instance column='[Sub-Category]' derivation='None' name='[none:Sub-Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profit]' derivation='Sum' name='[sum:Profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group) 1]' />
+              <size column='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group) 1]' />
+              <lod column='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[none:Sub-Category:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5272375345230103' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[sum:Profit:qk]</rows>
+        <cols>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[sum:Sales:qk]</cols>
+      </table>
+      <simple-id uuid='{06E19E7C-0DE1-4FAA-B1A8-71A5AD46EA2B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Group by Header'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[City (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[City (group)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{033C47EF-58C2-4A9C-AE19-2797DAD47813}' />
+    </window>
+    <window class='worksheet' name='Grouping by toolbar'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group)]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group)]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{42D3DD00-F4D6-477A-8439-2ECF7F39A09E}' />
+    </window>
+    <window class='worksheet' name='Grouping by visual'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group) 1]' type='color' />
+            <card pane-specification-id='0' param='[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group) 1]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.09gaihl0l1o5em16bl9lp0w7m49e].[Sub-Category (group) 1]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{84018513-60E8-4DD3-9225-0A5385D8BCD8}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Grouping by data window'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{461ADBF1-C339-41CB-937E-805D6941272A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Group by Header' width='192'>
+      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
+      YTqV9eZoYlsAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Grouping by data window' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Grouping by toolbar' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Grouping by visual' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
